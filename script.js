@@ -1,20 +1,21 @@
 // Greet based on time of day
 window.addEventListener('DOMContentLoaded', () => {
-    const hour = new Date().getHours();
-    let greeting = 'Hello';
-    if (hour < 12) {
-      greeting = 'Good morning';
-    } else if (hour < 18) {
-      greeting = 'Good afternoon';
-    } else {
-      greeting = 'Good evening';
-    }
-  
-    const greetingEl = document.getElementById('greeting-text');
-    if (greetingEl) {
-      greetingEl.innerText = `${greeting}, I'm Arnav Jain`;
-    }
-  });
+  const hour = new Date().getHours();
+  let greeting = 'Hello';
+  if (hour < 12) {
+    greeting = 'Good morning';
+  } else if (hour < 18) {
+    greeting = 'Good afternoon';
+  } else {
+    greeting = 'Good evening';
+  }
+
+  const header = document.querySelector('header h1');
+  if (header) {
+    header.innerText = `${greeting}, I'm Arnav Jain`;
+  }
+});
+
 document.getElementById('toggle-theme').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
   });

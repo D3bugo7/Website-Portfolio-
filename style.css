@@ -34,7 +34,6 @@ header h1 {
 }
 
 h2 {
-  font-family: 'Edu NSW ACT Hand Pre', cursive;
   margin-bottom: 1rem;
   color: #a17acc; /* soft purple */
 }
@@ -95,7 +94,4 @@ body.dark-mode .contact {
 body.dark-mode footer {
   background-color: #111111;
   color: #ccc;
-}
-#greeting-text {
-  font-family: 'Edu NSW ACT Hand Pre', cursive;
 }
