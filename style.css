@@ -1,0 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5; /* very light gray */
+  color: #2e2e2e; /* charcoal text */
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  background-color: #1c1c1c; /* almost black */
+  color: #dddddd; /* light gray text */
+  padding: 3rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #a17acc; /* soft purple */
+}
+
+.about, .Skills, .AcademicProjects, .Academics, .Contact {
+  background-color: #2e2e2e; /* charcoal */
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  color: #dddddd; /* light gray text */
+}
+
+h2 {
+  font-family: 'Edu NSW ACT Hand Pre', cursive;
+  margin-bottom: 1rem;
+  color: #a17acc; /* soft purple */
+}
+
+ul {
+  list-style: disc inside;
+  margin-top: 1rem;
+  color: #dddddd; /* light gray */
+}
+
+a {
+  color: #6ca0dc; /* soft blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8db2e3; /* lighter blue */
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1c1c1c; /* almost black */
+  color: #dddddd;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+ul ul {
+  margin-left: 1.5rem;
+  list-style-type: circle;
+}
+
+ul ul ul {
+  margin-left: 1.5rem;
+  list-style-type: square;
+}
+
+/* Dark mode: optional, maybe invert colors or tweak */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode header {
+  background-color: #0a0a0a;
+}
+
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .academic-projects,
+body.dark-mode .academics,
+body.dark-mode .contact {
+  background-color: #222222;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+}
+
+body.dark-mode footer {
+  background-color: #111111;
+  color: #ccc;
+}
+#greeting-text {
+  font-family: 'Edu NSW ACT Hand Pre', cursive;
+}
