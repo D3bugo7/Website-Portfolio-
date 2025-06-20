@@ -24,7 +24,7 @@ header h1 {
   color: #a17acc; /* soft purple */
 }
 
-.about, .Skills, .AcademicProjects, .Academics, .Contact {
+.about, .Skills, .AcademicProjects, .Academics, .contact {
   background-color: #2e2e2e; /* charcoal */
   margin: 2rem 0;
   padding: 2rem;
